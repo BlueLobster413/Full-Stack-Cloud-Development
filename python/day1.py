@@ -12,7 +12,7 @@ print(a,'+',b,'=',a+b+c)
 print(a,'*',b,'=',a*b*c)
 print(a,'**',b,'=',(a**b)**c)
 if(b!=0):   
-    print(a,'/',b,'=',round(float(a/b),2))
+    print(a,'/',b,'=',round(float((a/b)/c),2))
 else:
     print(a,'/',b,'=','Inf')
 
