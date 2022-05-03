@@ -2,15 +2,17 @@
 import sys
 
 #print(sys.argv)
-a = int(sys.argv[1])
-b = int(sys.argv[2])
+a = int(input())
+b = int(input())
+c = int(input())
 
-print(f'value of a,b ={a},{b}')
-print(a,'-',b,'=',a-b)
-print(a,'+',b,'=',a+b)
-print(a,'*',b,'=',a*b)
-print(a,'**',b,'=',a**b)
+print(f'value of a,b,c ={a},{b},{c}')
+print(a,'-',b,'=',a-b-c)
+print(a,'+',b,'=',a+b+c)
+print(a,'*',b,'=',a*b*c)
+print(a,'**',b,'=',(a**b)**c)
 if(b!=0):   
     print(a,'/',b,'=',round(float(a/b),2))
 else:
     print(a,'/',b,'=','Inf')
+
