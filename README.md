@@ -1,3 +1,3 @@
 # Full-Stack-Cloud-Development Course
 
-Course repo for the class
+git repo for the class
